@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001", "https://ease-my-task.vercel.app"],
+    origin: ["http://localhost:3000", "http://localhost:3001", "https://ease-my-task.vercel.app", "https://task-management-web-application-pied.vercel.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
